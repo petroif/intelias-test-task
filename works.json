@@ -1,0 +1,35 @@
+[
+    {
+       "id":"1",
+       "corporation":"PE Dolyk Petro",
+       "position":"Self-employed",
+       "period":"September 2019 - up to now",
+       "country":"Ukraine",
+       "firstResponsibility":"Retail sale",
+       "secondResponsibility":"Wholesale trade",
+       "thirdResponsibility":"Planning",
+       "fourthResponsibility":"Solving problems"
+    },
+    {
+        "id":"2",
+        "corporation":"Intelkom LTD",
+        "position":"Logistics engineer",
+        "period":"March 2018 - August 2020",
+        "country":"Ukraine",
+        "firstResponsibility":"Finding trucks",
+        "secondResponsibility":"Concluding contracts",
+        "thirdResponsibility":"Solving logistics problems",
+        "fourthResponsibility":"Processes coordination"
+    },
+    {
+        "id":"3",
+        "corporation":"SE PA Karpaty",
+        "position":"Internal logistics engineer",
+        "period":"August 2013 - June 2015",
+        "country":"Ukraine",
+        "firstResponsibility":"Planning",
+        "secondResponsibility":"Processes coordination",
+        "thirdResponsibility":"Solving problems",
+        "fourthResponsibility":"Process cheking"
+    }
+ ]
