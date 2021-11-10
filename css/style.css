@@ -1,0 +1,171 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+    color: #232930;
+}
+
+.content {
+    font-weight: 500;
+    background-color: #fff;
+    margin: 50px auto;
+    max-width: 980px;
+    box-shadow: 2px 2px 2px  2px rgb(0 0 0 / 20%);
+}
+
+.introduction {
+    display: grid;
+}
+
+.photo-and-download {
+    margin: 20px;
+}
+
+.photo-and-download img {
+    width: 100%;
+    display: block;
+    min-width: 240px;
+    border-radius: 0 25px;
+}
+
+.btn-download-cv {
+    background-color: #8d8d8d47;
+    color: #000;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 0 15px;
+}
+
+.start-course {
+    background: #A25EB5;
+    border-radius: 14px;
+    color: white;
+}
+
+.greeting {
+    margin: 20px;
+}
+
+.my-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.course-candidate {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.contacts div {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #595959;
+    margin: 20px auto;
+}
+
+.contact-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;  
+}
+
+.contact-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    opacity: 0.8;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.skills, .education, .work-expirience {
+    padding: 24px;
+}
+
+.skills h2, .tech-skills h4, .soft-skills h4, .education h2, .work-expirience h2{
+    text-align: center;
+    background: #47C1A3;
+    border-radius: 0 15px;
+    color: white;
+    margin: 10px 10px;
+}
+
+.skills h2, .education h2, .work-expirience h2{
+    border-radius: 0 20px;
+}
+
+.tech-skills-list, .soft-skills-list, .work-list {
+    list-style-type: square;
+}
+
+.tech-skills-list-item, .soft-skills-list-item, .work-list-item {
+    color: #A25EB5;
+}
+
+.tech-skills-text, .soft-skills-text, .work-list-text {
+    color: #232930;
+}
+
+
+.skills-container {
+    display: grid;
+}
+
+.university-text, .specialty-text {
+    font-weight: 300;
+}
+
+.university, .specialty, .period {
+    margin: 15px;
+}
+.work-expirience-container {
+    display: grid; 
+}
+
+article {
+    margin: 0 15px;
+}
+
+
+
+@media (min-width: 700px) {
+    .introduction {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .work-expirience-container {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media (min-width: 880px) {
+    .work-expirience-container {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
