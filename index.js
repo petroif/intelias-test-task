@@ -7,7 +7,7 @@
         for (const work of works) {
             worksContainer.innerHTML += `
                 <article>
-                    <h4 class="work-position">${work.position}<span class="organization">${work.corporation}</span></h4>
+                    <h4 class="work-position">${work.position}<span class="organization"> ${work.corporation}</span></h4>
                     <p class="period">${work.period}   <span class="line">|</span>  ${work.country}</p>
                     <ul class="work-list">
                         <li class="work-list-item"><span class="work-list-text">${work.firstResponsibility}</span></li>
